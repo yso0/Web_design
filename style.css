@@ -1,41 +1,156 @@
-h1 {
-    color: coral
-}
-ul {
-    width: 400px;
-}
-li {
-    text-align: left
-}
-table{
-    width: 600px;
+body{
+    font-family: "맑은고딕", "고딕", "굴림";
 }
 
-table, td {
-    border: 1px solid;
-    border-collapse: collapse;
-    margin: 5px auto;
+header{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#A599E4;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header h1{
+    width: 40%;
+    float: left;
+    color: beige;
+    
+}
+
+header nav{
+    width: 50%;
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 15px;
+}
+
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+section{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px soild #a8a8a8;
     padding: 5px;
 }
 
-table .target {
-    background-color: beige;
+footer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: burlywood;
+    color: white;
     text-align: center;
 }
 
-#github_logo{
-    width:30%;
-    height: auto;
-}
-
-section {
-    max-width: 680px;
-    margin-top: 20px;
-    padding: 40px;
-    box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.3)
+ul{
+    list-style-type: circle;
 }
 
 #section1 {
-    background-color: #f0f0fb;
-    border-radius: 30px;
+    max-width: 815px;
+    margin-top: 20px;
+    padding: 40px;
+    box-shadow: 2px 4px 4px 2px rgba(.1,1,1,.1)
 }
+
+
+@font-face{
+    font-family:Cafe24Oneprettynight; 
+    src:url('Cafe24Oneprettynight.ttf');
+    font-weight: normal;
+}
+@font-face{
+    font-family:BareunDotumPro2; 
+    src:url('BareunDotumPro2.ttf');
+    font-weight: bold;
+} 
+@font-face{
+    font-family:NanumSquare; 
+    src:url('NanumSquare.ttf');
+    font-weight: bolder;
+} 
+@font-face{
+    font-family:BarricadaPro; 
+    src:url('BarricadaPro.ttf');
+    font-weight: bolder;
+} 
+
+header{
+    font-family: BarricadaPro;
+    font-size: large;
+    text-align: center;
+}
+
+body{
+    font-family: NanumSquare;
+    font-weight:normal;
+    text-align: center;
+    font-size: large;
+}
+
+nav ul li{
+    font-family: NanumSquare;
+      font-weight:bold;
+}
+
+p{
+  font-family: NanumSquare;
+      font-weight:bold;
+    text-align: center;
+    font-size: large;
+}
+
+.medium{
+    color:#10102F; 
+    font-size: medium;
+    text-align: left;
+    text-decoration: underline;
+    word-spacing: 0.6em;
+}
+
+.small{
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    text-decoration: overline;
+}
+
+.large{
+    font-family: Cafe24Oneprettynight;
+    font-size: large;
+     text-align: center;
+    text-decoration:line-through;
+    letter-spacing: 0.3em;
+}
+
+.xx-large{
+    font-family: IropkeBatangM;
+    font-size: large;
+    text-align: justify;
+    text-decoration: underline overline;
+    line-height: 150%;
+}
+
+
+
