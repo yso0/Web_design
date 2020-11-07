@@ -1,0 +1,128 @@
+body{
+    font-family: "맑은고딕", "고딕", "굴림";
+}
+
+header{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#10102F;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header h1{
+    width: 40%;
+    float: left;
+    color: beige;
+    
+}
+
+header nav{
+    width: 50%;
+    float: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 15px;
+}
+
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+    color: aliceblue;
+    font-size: large;
+}
+
+section{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px soild #a8a8a8;
+    padding: 5px;
+}
+
+footer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+@font-face{
+    font-family:Cafe24Oneprettynight; 
+    src:url('Cafe24Oneprettynight.ttf');
+    font-weight: normal;
+}
+@font-face{
+    font-family:BareunDotumPro2; 
+    src:url('BareunDotumPro2.ttf');
+    font-weight: bold;
+} 
+@font-face{
+    font-family:IropkeBatangM; 
+    src:url('IropkeBatangM.ttf');
+    font-weight: bolder;
+} 
+
+header{
+    font-family: BareunDotumPro2; 
+}
+
+body{
+    font-family: IropkeBatangM
+}
+
+.medium{
+    color:#10102F; 
+    font-size: medium;
+    text-align: left;
+    text-decoration: underline;
+    word-spacing: 0.6em;
+}
+
+.small{
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    text-decoration: overline;
+}
+
+.large{
+    font-family: Cafe24Oneprettynight;
+    font-size: large;
+     text-align: center;
+    text-decoration:line-through;
+    letter-spacing: 0.3em;
+}
+
+.xx-large{
+    font-family: IropkeBatangM;
+    font-size: large;
+    text-align: justify;
+    text-decoration: underline overline;
+    line-height: 150%;
+}
+
+
+
