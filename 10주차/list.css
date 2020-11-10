@@ -1,0 +1,106 @@
+body{
+    font-family: "맑은고딕", "고딕", "굴림";
+}
+
+
+@font-face{
+    font-family:Cafe24Oneprettynight; 
+    src:url('Cafe24Oneprettynight.ttf');
+    font-weight: normal;
+}
+@font-face{
+    font-family:BareunDotumPro2; 
+    src:url('BareunDotumPro2.ttf');
+    font-weight: bold;
+} 
+@font-face{
+    font-family:NanumSquare; 
+    src:url('NanumSquare.ttf');
+    font-weight: bolder;
+} 
+@font-face{
+    font-family:DXUnigothicStd-30; 
+    src:url('DXUnigothicStd-30.ttf');
+    font-weight: bolder;
+}
+@font-face{
+    font-family:BarricadaPro; 
+    src:url('BarricadaPro.ttf');
+    font-weight: bolder;
+} 
+
+
+body{
+    font-family: DXUnigothicStd-30;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    color: #D2F5FF
+}
+
+
+a:hover {
+        color:darksalmon;
+    }
+
+
+a{
+    text-decoration: none;
+    color:bisque;
+}
+    
+a{
+    text-decoration: none;
+    color:bisque;
+}
+.banner {
+    position: relative;
+    display: inline-block;
+}
+.banner img {
+    max-width:100%;
+}
+.banner span.text {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    display: none;
+    width:100%;
+    font-size: 75px;
+    color:#fff;
+    font-weight:900;
+    font-family: BareunDotumPro2;
+    text-align: center;
+}
+
+.banner::before, .banner::after{
+    content:'';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 95%;
+    height: 95%;
+    transform: translate(-50%,-50%);
+    transition: all .8s;
+}
+.banner::before {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 0%
+}
+.banner::after {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    height: 0;
+}
+
+.banner:hover span.text {display: block;}
+.banner:hover::before {width: 95.5%}
+.banner:hover::after {height: 95.5%}
+
+section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
